@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <link rel="https://cdnjs.cloudfare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="checkout.css">
+  
+  <title>Checkout Form</title>
+</head>
+<body>
+  <h2>Checkout</h2>
+  <div class="row">
+    <div class="col-75">
+      <div class="container">
+        <form action="/action_page.php">
+
+        <div class="row">
+          <div class="col-58">
+          <h3>Billing Address</h3>
+          <label for="fname">Full Name</label>
+          <input type="text" id="fname" name="firstname"
+          placeholder="John ">
+
+<label for="fname"></label>
+          <input type="text" id="fname" name="firstname"
+          placeholder="Wick">
+
+<label for="email">Email</label>
+          <input type="text" id="email" name="email"
+          placeholder="John@example.com">
+
+
+<label for="adr">Address</label>
+          <input type="text" id="adr" name="address"
+          placeholder="72 W. 15th street">
+
+
+<label for="city">City</label>
+          <input type="text" id="city" name="city"
+          placeholder="Scarborough">
+
+<div class="row">
+  <div class="col-50">
+    <label for="state">State</label>
+    <input type="text" id="state" name="state" placeholder="ON">
+          </div>
+
+<div class="col-50">
+    <label for="state">Zip</label>
+    <input type="text" id="zip" name="zip" placeholder="M1A2M9">
+          </div>
+        </div>
+        </div>
+
+<div class="col-50">
+  <h3>Payment</h3>
+  <label for="fname">Accepted Cards</label>
+  <div class="icon-container">
+    <img src="img/visa cc.png" style="width:25%">
+    </div>
+<label for="cname">Card holder Name:</label>
+<input type="text" id="cname" name="cardnumber" placeholder="John Machine Wick">
+
+
+<label for="ccnum">Credit/Debit Card #</label>
+<input type="text" id="ccnum" name="cardnumber" placeholder="1111-0000-6666-9999">
+
+
+<label for="expmonth">Exp Month</label>
+<input type="text" id="expmonth" name="expmonth" placeholder="January">
+
+<div class="row">
+  <div class="col-50"
+<label for="expyear">Exp Year</label>
+<input type="text" id="expyear" name="expyear" placeholder="2020">
+</div>
+
+<div class="col-50">
+<label for="cvv">CVV</label>
+<input type="text" id="cvv" name="cvv" placeholder="232">
+</div>
+</div>
+</div>
+<label>
+<input type="checkbox" checked="checked" name="sameadr">
+Shipping address same as billing</label>
+<input type="submit" value="Continue to checkbox" class="btn">
+      
+      </form>
+
+      </div>
+    </div>
+  </div>
+</body>
+</html>
