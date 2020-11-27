@@ -30,6 +30,7 @@ Project deployed on git hub.
 ``` 
 
  https://github.com/sajmd/MavericksFCShop-.git
+ https://sajmd.github.io/MavericksFCShop-/.
  
 ``` 
 
